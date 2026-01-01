@@ -49,9 +49,9 @@ Responsive and clean UI
 📂 Project Structure
 src/
  ├── app/
- │   ├── dashboard/
- │   ├── campaigns/
- │   ├── create-campaign/
+ │   ├── dashboard/page.js
+ │   ├── campaigns/page.js
+ │   ├── create-campaign/page.js
  │   ├── layout.js
  │   └── page.js
  └── components/
