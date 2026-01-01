@@ -1,4 +1,3 @@
-.
 
 📧 Globopersona – Email Campaign Dashboard
 
@@ -9,43 +8,43 @@ This project focuses on UI, user flow, and component-based design.
 
 🚀 Features
 
-Dashboard overview with:
+$Dashboard overview with:
 
-Total Campaigns
+->Total Campaigns
 
-Active Campaigns
+->Active Campaigns
 
-Draft Campaigns
+->Draft Campaigns
 
-Closed Campaigns
+->Closed Campaigns
 
-Create Campaign form
+$Create Campaign form
 
-Campaign listing with status control:
+$Campaign listing with status control:
 
-Draft
+->Draft
 
-Active
+->Active
 
-Closed
+->Closed
 
-Campaign scheduling option (UI level)
+$Campaign scheduling option (UI level)
 
-Reusable layout and sidebar components
+$Reusable layout and sidebar components
 
 Responsive and clean UI
 
 🛠️ Tech Stack
 
-React
+@React
 
-Next.js (App Router)
+@Next.js (App Router)
 
-Tailwind CSS
+@Tailwind CSS
 
-JavaScript
+@JavaScript
 
-Vercel (Deployment)
+@Vercel (Deployment)
 
 📂 Project Structure
 src/
@@ -63,23 +62,19 @@ src/
 
 Clone the repository:
 
-git clone https://github.com/<your-username>/globopersona-ui
-
+->git clone https://github.com/deepumaru091/globopersona-ui
 
 Open the project folder:
 
-cd globopersona-ui
-
+->cd globopersona-ui
 
 Install dependencies:
 
-npm install
-
+->npm install
 
 Start the development server:
 
-npm run dev
-
+->npm run dev
 
 Open in browser:
 
@@ -93,11 +88,11 @@ https://globopersona-ui.vercel.app
 
 📌 Notes
 
-This is a frontend-only project.
+#This is a frontend-only project.
 
-Campaign data is stored using browser localStorage.
+#Campaign data is stored using browser localStorage.
 
-Backend email sending and scheduling can be added in future.
+#Backend email sending and scheduling can be added in future.
 
 👩‍💻 Author
 
@@ -106,12 +101,12 @@ Frontend Developer
 
 💡 Purpose of This Project
 
-This project was built as part of a frontend UI assignment to demonstrate:
+->This project was built as part of a frontend UI assignment to demonstrate:
 
-React component structure
+->React component structure
 
-Page routing using Next.js
+->Page routing using Next.js
 
-UI/UX design using Tailwind CSS
+->UI/UX design using Tailwind CSS
 
-Real-world email campaign workflow
+->Real-world email campaign workflow
