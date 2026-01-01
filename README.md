@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+.
 
-## Getting Started
+📧 Globopersona – Email Campaign Dashboard
 
-First, run the development server:
+Globopersona is a frontend email campaign management dashboard.
+It allows companies to create, manage, and track email campaigns such as offers, announcements, and updates.
 
-```bash
+This project focuses on UI, user flow, and component-based design.
+
+🚀 Features
+
+Dashboard overview with:
+
+Total Campaigns
+
+Active Campaigns
+
+Draft Campaigns
+
+Closed Campaigns
+
+Create Campaign form
+
+Campaign listing with status control:
+
+Draft
+
+Active
+
+Closed
+
+Campaign scheduling option (UI level)
+
+Reusable layout and sidebar components
+
+Responsive and clean UI
+
+🛠️ Tech Stack
+
+React
+
+Next.js (App Router)
+
+Tailwind CSS
+
+JavaScript
+
+Vercel (Deployment)
+
+📂 Project Structure
+src/
+ ├── app/
+ │   ├── dashboard/
+ │   ├── campaigns/
+ │   ├── create-campaign/
+ │   ├── layout.js
+ │   └── page.js
+ └── components/
+     ├── AppLayout.jsx
+     └── Sidebar.jsx
+
+▶️ How to Run the Project Locally
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/globopersona-ui
+
+
+Open the project folder:
+
+cd globopersona-ui
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open in browser:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+🌐 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+The project is deployed on Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://globopersona-ui.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📌 Notes
 
-## Deploy on Vercel
+This is a frontend-only project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Campaign data is stored using browser localStorage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Backend email sending and scheduling can be added in future.
+
+👩‍💻 Author
+
+Deepthi
+Frontend Developer
+
+💡 Purpose of This Project
+
+This project was built as part of a frontend UI assignment to demonstrate:
+
+React component structure
+
+Page routing using Next.js
+
+UI/UX design using Tailwind CSS
+
+Real-world email campaign workflow
